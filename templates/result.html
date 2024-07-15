@@ -1,0 +1,31 @@
+<!-- result.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PCB RUL Prediction Result</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: linear-gradient(to bottom, #f0f0f0, #e0e0e0);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .result {
+            background-color: #fff;
+            padding: 20px;
+            border: 1px solid #ddd;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="result">
+        <h1>PCB Remaining Useful Life Prediction Result</h1>
+        <p>Predicted RUL (in seconds): {{ predicted_rul }}</p>
+    </div>
+</body>
+</html>

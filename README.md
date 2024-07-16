@@ -25,7 +25,7 @@ Visit https://rul-of-pcb.onrender.com/ to explore the model's capabilities and p
 **Getting Started:**
 
 1. **Access the Model**: Visit https://rul-of-pcb.onrender.com/.
-2. **Input Parameters**: Provide the required input variables (G levels, Centroid X, Centroid Y, Stress PCB, and Stress Capacitor).
+2. **Input Parameters**: Provide the required input variables (Vibrational Frequency applied , Stress on PCB or capacitor).
 3. **Predict RUL**: The model will predict the fatigue life of the PCB.
 
 **Contributions and Feedback:**
